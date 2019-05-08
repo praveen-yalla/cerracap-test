@@ -443,9 +443,9 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
-    html {
+    /* html {
         font-size: 50%;
-    }
+    } */
     .open-menu~nav {
         padding: 20px 0;
     }
