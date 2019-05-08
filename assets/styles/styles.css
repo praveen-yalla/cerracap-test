@@ -426,7 +426,8 @@ h3 {
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 767px) {
+
+/* @media screen and (max-width: 767px) {
     nav ul {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -443,16 +444,16 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
-    /* html {
+    html {
         font-size: 50%;
-    } */
+    }
     .open-menu~nav {
         padding: 20px 0;
     }
     nav li a {
         padding: 3px;
     }
-}
+} */
 
 
 /* Home Page Styles */
