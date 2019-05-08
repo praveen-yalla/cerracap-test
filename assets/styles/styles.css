@@ -192,6 +192,10 @@ li {
     background: hsl(0, 0%, 100%);
 } */
 
+.fixed-top {
+    padding: 0;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
@@ -1630,8 +1634,23 @@ Attribution required
 /* Responsive */
 
 @media (max-width: 720px) {
+    #intro h3 {
+        font-size: 6vh;
+    }
     #intro h1 {
-        font-size: 8em;
+        font-size: 4em;
+    }
+    .hm-img img {
+        width: 46vh;
+    }
+    .left-img .bio {
+        right: 0;
+    }
+    #slide-img .hm-img {
+        bottom: 0;
+    }
+    .fp-slidesNav.fp-bottom {
+        bottom: 0;
     }
     #slide-img .text-slide1 .headtxt {
         font-size: 26px;
@@ -1782,5 +1801,6 @@ Attribution required
     }
     .nav-item:hover .sub-menu {
         position: static;
+        width: 100%;
     }
 }
