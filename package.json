@@ -1,0 +1,14 @@
+{
+    "title": "CerraCap",
+    "name": "Cerracap",
+    "version": "1.0.0",
+    "description": "CerraCap ventures",
+    "keywords": [],
+    "dependencies": {
+        "bootstrap": "4.2.1",
+        "font-awesome": "^4.7.0",
+        "fullpage.js": "^3.0.5",
+        "jquery": "3.3.1",
+        "slick-carousel": "^1.8.1"
+    }
+}
