@@ -98,7 +98,7 @@
         height: auto;
     }
     .mn-dt .mn-cnt {
-        /* height: 15vh; */
+        height: 15vh;
     }
     .lst-wrp {
         overflow: scroll;
@@ -122,5 +122,215 @@
     }
     .ns-lst {
         margin-bottom: 24px;
+    }
+}
+
+
+/* Ipad */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .footer-list .foot-menu li {
+        margin-right: 6rem !important;
+    }
+    #intro h1 {
+        font-size: 14vh;
+    }
+    .hm-img img {
+        width: 55vh;
+    }
+    #slide-img .text-slide1 .headtxt {
+        font-size: 6vh;
+        position: absolute;
+        right: 0;
+        top: 4vh;
+        width: 85vh;
+        text-align: left;
+    }
+    #slide-img .bio {
+        bottom: 55vh;
+    }
+    .left-img .bio {
+        right: 13vh;
+    }
+}
+
+
+/* portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .sdbr {
+        display: block;
+    }
+    #sidebarCollapse {
+        display: none;
+    }
+    .nav-item .sub-menu {
+        display: block;
+        padding-left: 15px;
+        background: #eee;
+    }
+    .nav-item:hover .sub-menu {
+        position: static;
+        width: 100%;
+    }
+    #intro h3 {
+        font-size: 6vh;
+    }
+    #intro h1 {
+        font-size: 11vh;
+    }
+    #slide-img .text-slide1 .headtxt {
+        font-size: 5vh;
+        position: absolute;
+        left: 0;
+        top: 4vh;
+        width: 132vh;
+        text-align: left;
+    }
+    #slide-img .text-slide1 .headtxt {
+        font-size: 4.5vh;
+        position: absolute;
+        left: 0;
+        top: 4vh;
+        width: 71vh;
+        text-align: left;
+    }
+    #slide-img .bio {
+        bottom: 65vh;
+    }
+    .left-img .bio {
+        right: 2vh;
+    }
+    .bio .name {
+        font-size: 4vh;
+    }
+    .bio p {
+        font-size: 2vh;
+    }
+    .right-img .bio {
+        left: 2vh;
+    }
+    .footer-list .foot-menu li {
+        margin-right: 3rem !important;
+    }
+    .hm-img img {
+        width: 45vh;
+    }
+    .static-footer {
+        padding-bottom: 0 !important;
+    }
+    .teams .titles .desig {
+        font-size: 13px;
+    }
+    .teams .titles .name {
+        font-size: 15px;
+    }
+    .team-details .team-img {
+        width: 224px;
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        height: 340px;
+    }
+    .team-item {
+        padding: 1vh;
+    }
+    .indust-flpg {
+        display: block;
+    }
+    .main-indust {
+        display: none;
+    }
+    .indst-1 {
+        background: #f5f5f5 !important;
+    }
+    .indst-2 {
+        /* padding: 20px; */
+    }
+    .mn-dt .mn-hd {
+        left: 0;
+    }
+    .ind-lbls ul li {
+        display: block;
+        margin: 31px 221px;
+        text-align: left;
+    }
+    .ind-lbls .icn {
+        width: 5vh;
+    }
+    .ind-lbls .lbl-txt {
+        font-size: 30px;
+    }
+    .mn-itms {
+        left: 80px;
+        bottom: 0px;
+    }
+    .mn-itms .mn {
+        height: 30px;
+        margin-right: 104px;
+    }
+    /* .op1 {
+        bottom: -34px;
+    } */
+    .op2 {
+        bottom: 24px;
+        left: 23px;
+    }
+    .op3 {
+        bottom: 82px;
+        left: 41px;
+    }
+    .op4 {
+        bottom: 149px;
+        left: 63px;
+    }
+    .op5 {
+        bottom: 235px;
+        left: 73px;
+    }
+    .mn-nme {
+        top: -66px;
+        left: -34px;
+        font-size: 25px;
+        font-weight: normal;
+        display: block;
+        width: 70px;
+        text-align: center;
+    }
+    .mn-wp {
+        background: url('../images/images/industrialize-b.png') 0 bottom no-repeat;
+        background-size: cover;
+        position: static;
+        height: 450px;
+        width: 100%;
+    }
+    .indst-data-wrap {
+        padding: 20px;
+    }
+    .art-item .artle {
+        height: 140px;
+        overflow: auto;
+    }
+    #newsCarousel {
+        display: none;
+    }
+    #inmble {
+        display: block;
+    }
+    #contact-us {
+        height: calc(100vh - 271px);
+    }
+    .ml-10 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .footer-list .patent-txt {
+        margin-left: 15px;
     }
 }
