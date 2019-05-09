@@ -94,6 +94,9 @@
     #inmble {
         display: block;
     }
+    .details {
+        height: auto;
+    }
     .team-details .team-img {}
     .team-details .titles {
         right: 15px;
