@@ -1672,6 +1672,9 @@ Attribution required
         width: 100%;
         left: 0;
     }
+    .fp-controlArrow {
+        display: none;
+    }
     #slide-img .bio {
         top: 14vh;
     }
