@@ -1,0 +1,97 @@
+/* Iphone X */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    #intro h3 {
+        font-size: 6vh;
+    }
+    .teams .titles .name {
+        /* color: #f09f01; */
+        font-size: 17px;
+    }
+    #intro h1 {
+        font-size: 4em;
+    }
+    .mn-dt .mn-cnt {
+        height: 30vh;
+    }
+    .details {
+        height: auto;
+    }
+    .team-details .team-img {}
+    .team-details .titles {
+        right: 15px;
+    }
+    .bottom-line {
+        top: 320px;
+    }
+    .team-descp {
+        font-size: 2vh;
+        background: none;
+    }
+    .switch-list li a {
+        font-size: 2vh;
+    }
+    .teams .titles .desig {
+        font-size: 1.5vh;
+    }
+    .mn-itms .mn {
+        margin-right: 14%;
+    }
+    .mn-itms {
+        bottom: 8%;
+    }
+    .op3 {
+        bottom: 65px;
+    }
+    .op4 {
+        bottom: 84px;
+    }
+    .op5 {
+        bottom: 154px;
+    }
+    #newsCarousel {
+        display: none;
+    }
+    #inmble {
+        display: block;
+    }
+    .ns-lst {
+        margin-bottom: 24px;
+    }
+    .ml-10 {
+        margin-left: 0;
+    }
+    .address-block {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Iphone 6,7,8 plus */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    #newsCarousel {
+        display: none;
+    }
+    #inmble {
+        display: block;
+    }
+    .mn-wp {
+        height: 316px;
+    }
+    .mn-wp {
+        height: 316px;
+    }
+}
+
+
+/* Iphone 6,7,8  */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    #newsCarousel {
+        display: none;
+    }
+    #inmble {
+        display: block;
+    }
+}
