@@ -559,6 +559,7 @@ h3 {
     font-family: "roboto-medium";
     font-size: 4vh;
     color: #f09f01;
+    text-transform: uppercase;
 }
 
 .text-slide1 {
@@ -1660,6 +1661,7 @@ Attribution required
     }
     #slide-img .hm-img {
         bottom: 0;
+        left: 50px;
     }
     .fp-slidesNav.fp-bottom {
         bottom: 0;
@@ -1675,7 +1677,7 @@ Attribution required
     }
     .right-img .bio {
         right: 0;
-        left: auto;
+        left: 0;
     }
     .bio .name {
         font-size: 15px;
