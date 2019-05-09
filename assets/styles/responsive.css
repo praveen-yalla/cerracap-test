@@ -108,4 +108,13 @@
         font-size: 2vh;
         background: none;
     }
+    .ml-10 {
+        margin-left: 0;
+    }
+    .address-block {
+        margin-bottom: 40px;
+    }
+    .ns-lst {
+        margin-bottom: 24px;
+    }
 }
