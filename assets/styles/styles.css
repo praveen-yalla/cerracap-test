@@ -1667,13 +1667,13 @@ Attribution required
         bottom: 0;
     }
     #slide-img .text-slide1 .headtxt {
-        font-size: 26px;
+        font-size: 3.5vh;
         top: 0;
         width: 100%;
         left: 0;
     }
     #slide-img .bio {
-        top: 114px;
+        top: 14vh;
     }
     .right-img .bio {
         right: 0;
