@@ -94,4 +94,15 @@
     #inmble {
         display: block;
     }
+    .team-details .team-img {}
+    .team-details .titles {
+        right: 15px;
+    }
+    .bottom-line {
+        top: 320px;
+    }
+    .team-descp {
+        font-size: 2vh;
+        background: none;
+    }
 }
