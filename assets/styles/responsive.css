@@ -98,7 +98,10 @@
         height: auto;
     }
     .mn-dt .mn-cnt {
-        height: 15vh;
+        /* height: 15vh; */
+    }
+    .lst-wrp {
+        overflow: scroll;
     }
     .team-details .team-img {}
     .team-details .titles {
