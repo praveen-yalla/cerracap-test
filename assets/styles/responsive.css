@@ -12,7 +12,7 @@
         font-size: 4em;
     }
     .mn-dt .mn-cnt {
-        height: 30vh;
+        height: 15vh;
     }
     .details {
         height: auto;
@@ -96,6 +96,9 @@
     }
     .details {
         height: auto;
+    }
+    .mn-dt .mn-cnt {
+        height: 15vh;
     }
     .team-details .team-img {}
     .team-details .titles {
