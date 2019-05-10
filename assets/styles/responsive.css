@@ -1,6 +1,6 @@
 /* Iphone X */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-width: 375px) and (max-width: 812px) {
     #intro h3 {
         font-size: 6vh;
     }
@@ -69,7 +69,7 @@
 
 /* Iphone 6,7,8 plus */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-width: 414px) and (max-width: 736px) {
     #newsCarousel {
         display: none;
     }
@@ -87,7 +87,7 @@
 
 /* Iphone 6,7,8  */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     #newsCarousel {
         display: none;
     }
@@ -128,7 +128,7 @@
 
 /* Ipad */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .footer-list .foot-menu li {
         margin-right: 6rem !important;
     }
@@ -157,7 +157,7 @@
 
 /* portrait */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .sdbr {
         display: block;
     }
@@ -325,7 +325,7 @@
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container-fluid {
         padding-left: 15px !important;
         padding-right: 15px !important;
