@@ -1849,6 +1849,6 @@ Attribution required
         filter: none !important;
     }
     .mn-dt .mn-cnt {
-        height: auto;
+        /* height: auto; */
     }
 }
