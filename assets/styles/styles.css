@@ -38,6 +38,11 @@
     src: url("../fonts/Roboto/Roboto-Medium.ttf");
 } */
 
+@font-face {
+    font-family: "heading";
+    src: url("../fonts/Noto-Serif/NotoSerif-ExtraCondensedSemiBoldItalic.ttf");
+}
+
 [class^="icon-"]:after,
 [class*=" icon-"]:after {
     font-family: "untitled-font-1";
