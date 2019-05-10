@@ -1848,4 +1848,7 @@ Attribution required
     .art-item .art-img {
         filter: none !important;
     }
+    .mn-dt .mn-cnt {
+        height: auto;
+    }
 }
