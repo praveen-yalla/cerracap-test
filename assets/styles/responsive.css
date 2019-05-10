@@ -17,12 +17,19 @@
     .details {
         height: auto;
     }
-    .team-details .team-img {}
+    .team-details .team-img {
+        width: 198px;
+        height: 300px;
+    }
+    .details,
+    .team-details {
+        height: 450px;
+    }
     .team-details .titles {
         right: 15px;
     }
     .bottom-line {
-        top: 320px;
+        top: 375px;
     }
     .team-descp {
         font-size: 2vh;

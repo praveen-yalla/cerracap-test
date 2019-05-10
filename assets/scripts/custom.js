@@ -10,6 +10,7 @@ $(document).ready(function() {
         scrollHorizontally: true,
         slidesNavigation: true,
 
+        anchors: ['intro', 'slide2'],
         css3: true,
         scrollingSpeed: 700,
         scrollOverflow: true,

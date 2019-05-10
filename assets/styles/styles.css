@@ -496,7 +496,7 @@ h3 {
     font-size: 19vh;
 }
 
-#intro .scroll-icon {
+.scroll-icon {
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -508,6 +508,10 @@ h3 {
     line-height: 0;
     color: #f09f01;
     cursor: pointer;
+}
+
+.scroll-icon a {
+    color: #f09f01;
 }
 
 #slide-img {
@@ -895,7 +899,7 @@ footer {
     background-image: linear-gradient(transparent, #f3f3f3 75%);
     width: 100%;
     position: absolute;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
 }
 
@@ -915,7 +919,7 @@ footer {
 .team-descp {
     height: 290px;
     overflow: auto;
-    margin-top: 60px;
+    margin: 60px 20px;
     font-size: 1.5vh;
 }
 
@@ -1037,6 +1041,10 @@ footer {
     padding: 0;
 }
 
+.job-item p {
+    font-size: 2vh;
+}
+
 .job-descp {
     font-family: "roboto-medium";
     font-size: 2vh;
@@ -1066,6 +1074,7 @@ footer {
     font-size: 2vh;
     cursor: pointer;
     display: inline;
+    border: none;
 }
 
 .jb-tle {
@@ -1199,7 +1208,7 @@ footer {
     list-style-type: unset;
     font-family: "roboto-regular";
     letter-spacing: 0;
-    font-size: 12px;
+    font-size: 1.8vh;
 }
 
 
@@ -1251,12 +1260,14 @@ footer {
     margin: 0;
     font-family: "roboto-medium";
     position: relative;
-    left: -32px;
+    left: -44px;
     color: #f09f01;
+    font-weight: bold;
 }
 
 .mn-dt .mn-hd span {
     padding-right: 5px;
+    font-weight: normal;
 }
 
 .mn-dt .mn-cnt {
@@ -1762,7 +1773,7 @@ Attribution required
     }
     .mn-itms .mn {
         height: 29px;
-        margin-right: 44px;
+        margin-right: 37px;
     }
     /* .op1 {
         bottom: -34px;
