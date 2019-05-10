@@ -14,6 +14,12 @@ $(document).ready(function() {
         css3: true,
         scrollingSpeed: 700,
         scrollOverflow: true,
+        scrollOverflowOptions: {
+            click: false,
+            tap: true,
+            interactiveScrollbars: true
+        },
+
         autoScrolling: true,
         afterRender: function() {
             $('#footer').hide();
