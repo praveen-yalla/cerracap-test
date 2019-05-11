@@ -71,6 +71,9 @@
     .address-block {
         margin-bottom: 40px;
     }
+    #contact-us {
+        background-size: 130%;
+    }
 }
 
 
@@ -88,6 +91,9 @@
     }
     .mn-wp {
         height: 316px;
+    }
+    #contact-us {
+        background-size: 130%;
     }
 }
 
@@ -129,6 +135,9 @@
     }
     .ns-lst {
         margin-bottom: 24px;
+    }
+    #contact-us {
+        background-size: 130%;
     }
 }
 
@@ -329,6 +338,9 @@
     }
     .ml-10 {
         margin-left: 0;
+    }
+    #contact-us {
+        background-size: 130%;
     }
 }
 
