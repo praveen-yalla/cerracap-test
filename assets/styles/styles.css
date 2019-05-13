@@ -527,12 +527,10 @@ h3 {
     color: #f09f01;
     font-family: "heading";
     font-size: 10vh;
-    content: 'viewport-units-buggyfill;' 'font-size: 10vh;';
 }
 
 #intro h1 {
     font-size: 19vh;
-    content: 'viewport-units-buggyfill;' 'font-size: 19vh;';
 }
 
 .scroll-icon {
@@ -566,7 +564,6 @@ h3 {
 #slide-img .bio {
     position: absolute;
     bottom: 36vh;
-    content: 'viewport-units-buggyfill;' 'bottom: 36vh;';
 }
 
 .indust-flpg {
@@ -584,7 +581,6 @@ h3 {
 .left-img .bio {
     text-align: right;
     right: 24vh;
-    content: 'viewport-units-buggyfill;' 'right: 24vh;';
 }
 
 .right-img .hm-img {
@@ -594,7 +590,6 @@ h3 {
 .right-img .bio {
     text-align: left;
     left: 10vh;
-    content: 'viewport-units-buggyfill;' 'left: 10vh;';
 }
 
 .bio p {
@@ -602,7 +597,6 @@ h3 {
     font-family: "roboto-regular";
     letter-spacing: 1px;
     font-size: 3vh;
-    content: 'viewport-units-buggyfill;' 'font-size: 3vh;';
 }
 
 .bio .name {
@@ -610,7 +604,6 @@ h3 {
     font-size: 4vh;
     color: #f09f01;
     text-transform: uppercase;
-    content: 'viewport-units-buggyfill;' 'font-size: 4vh;';
 }
 
 .text-slide1 {
@@ -626,7 +619,6 @@ h3 {
     top: 4vh;
     width: 135vh;
     text-align: left;
-    content: 'viewport-units-buggyfill;' 'font-size: 9vh;' 'top: 4vh;' 'width: 135vh';
 }
 
 .left-img .text-slide1 .headtxt {
@@ -654,7 +646,6 @@ h3 {
 
 .hm-img img {
     width: 60vh;
-    content: 'viewport-units-buggyfill;' 'width: 60vh';
 }
 
 
@@ -682,7 +673,6 @@ footer {
     background: url(../images/WAVE.png);
     background-position: center -20px;
     background-size: cover;
-    content: 'viewport-units-buggyfill;' 'height: 17vh';
 }
 
 
@@ -705,7 +695,6 @@ footer {
     -webkit-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    content: 'viewport-units-buggyfill;' 'height: 100vh';
 }
 
 #dismiss {
