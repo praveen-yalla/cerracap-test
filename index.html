@@ -129,7 +129,7 @@
     <!-- sidebar ends -->
 
     <div id="fullpage">
-        <div class=" section" id="intro">
+        <div class="section" id="intro">
             <div class="container-fluid">
                 <h3>Investing in Seminal Minds</h3>
                 <h1>from Dreams to Impact</h1>
@@ -261,7 +261,14 @@
     <script type="text/javascript" type="text/javascript" src="./assets/scripts/custom.js"></script>
     <script type="text/javascript" type="text/javascript" src="./assets/scripts/sidebar.js"></script>
 
-
+    <script type="text/javascript" src="vendor/viewport-units-buggyfill.hacks.js"></script>
+    <script type="text/javascript" src="vendor/viewport-units-buggyfill.js"></script>
+    <script>
+        window.viewportUnitsBuggyfill.init({
+            refreshDebounceWait: 50,
+            hacks: window.viewportUnitsBuggyfillHacks
+        });
+    </script>
 
 </body>
 
