@@ -1,6 +1,6 @@
 /* Iphone X */
 
-@media only screen and (min-width: 375px) and (max-width: 812px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
     #intro h3 {
         font-size: 6vh;
     }
@@ -79,7 +79,7 @@
 
 /* Iphone 6,7,8 plus */
 
-@media only screen and (min-width: 414px) and (max-width: 736px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
     #newsCarousel {
         display: none;
     }
@@ -100,7 +100,7 @@
 
 /* Iphone 6,7,8  */
 
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
     #newsCarousel {
         display: none;
     }
@@ -144,7 +144,7 @@
 
 /* Ipad */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .footer-list .foot-menu li {
         margin-right: 6rem;
     }
@@ -176,7 +176,7 @@
 
 /* portrait */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .sdbr {
         display: block;
     }
@@ -347,7 +347,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
     .container-fluid {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -357,9 +357,7 @@
     }
 }
 
-
-/* 
-@media screen and (min-device-width: 992px) {
+@media screen and (min-width: 800px) and (max-width: 1281px) {
     #intro h3 {
         font-size: 12vh;
     }
@@ -383,7 +381,7 @@
     .right-img .bio {
         right: 0;
     }
-} */
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     #intro h3 {
