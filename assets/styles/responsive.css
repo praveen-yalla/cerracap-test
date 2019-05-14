@@ -363,13 +363,13 @@
     }
     #slide-img .text-slide1 .headtxt {}
     .hm-img img {
-        width: 80vh;
+        width: 53vh;
     }
     #slide-img .text-slide1 .headtxt {
         font-size: 9vh;
         position: absolute;
         right: 0;
-        top: 4vh;
+        top: 7vh;
         width: 118vh;
     }
     .left-img .bio {
