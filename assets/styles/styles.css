@@ -1720,7 +1720,7 @@ Attribution required
 /* Responsive */
 
 @media (max-width: 720px) {
-    #intro h3 {
+    /* #intro h3 {
         font-size: 6vh;
     }
     #intro h1 {
@@ -1728,7 +1728,7 @@ Attribution required
     }
     .hm-img img {
         width: 40vh;
-    }
+    } */
     .left-img .bio {
         right: 0;
     }
