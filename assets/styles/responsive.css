@@ -372,6 +372,9 @@
 } */
 
 @media screen and (min-width: 1025px) and (max-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .navbar-expand-lg .navbar-collapse {
+        background: black;
+    }
     #intro h3 {
         font-size: 9vh;
     }
