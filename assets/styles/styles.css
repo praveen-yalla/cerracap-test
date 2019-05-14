@@ -165,6 +165,10 @@ li {
     list-style-type: none;
 }
 
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
+
 .modal-body {
     background: #f3f3f3;
     padding: 0;
