@@ -354,7 +354,7 @@
     }
 }
 
-@media (min-width: 801px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media (min-width: 801px) {
     .hm-img img {
         width: 53vh;
     }
@@ -369,6 +369,8 @@
     }
 }
 
+
+/* 
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .hm-img img {
         width: 53vh;
@@ -382,9 +384,9 @@
     #intro h1 {
         font-size: 11vh;
     }
-}
+} */
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
     #intro h3 {
         font-size: 7vh;
     }
