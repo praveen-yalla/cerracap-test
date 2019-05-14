@@ -42,27 +42,33 @@ $(document).ready(function() {
         $('.mn-dt').hide();
         $('.' + title).show();
 
-        $(this).closest('.mn').addClass("mnactive");
-    })
-    var clicked;
-    var cur = "evaluation";
-    $('.crcls, .mn-nme').click(function() {
-        cur = $(this).closest('.mn').attr('title');
-        clicked = true;
+        // $(this).closest('.mn').addClass("mnactive");
+
         $('.mn').not(this).removeClass('mnactive');
         $(this).closest('.mn').addClass("mnactive");
     })
 
-    $('.crcls, .mn-nme').mouseleave(function() {
+    // var clicked;
+    // var cur = "evaluation";
 
+    // $('.crcls, .mn-nme').click(function() {
+    //     cur = $(this).closest('.mn').attr('title');
+    //     clicked = true;
+    //     $('.mn').not(this).removeClass('mnactive');
+    //     $(this).closest('.mn').addClass("mnactive");
+    // })
+
+    $('.crcls, .mn-nme').mouseleave(function() {
+        var cur = $(this).closest('.mn').attr('title');
         $('.mn-dt').hide();
         $('.' + cur).show();
 
-        if (!clicked) {
-            $(this).closest('.mn').removeClass("mnactive");
-        } else {
-            clicked = false;
-        }
+        // if (!clicked) {
+        $('.mn').not(this).removeClass('mnactive');
+        $(this).closest('.mn').addClass("mnactive");
+        // } else {
+        //     clicked = false;
+        // }
     })
 
 

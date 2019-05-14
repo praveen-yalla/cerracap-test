@@ -6,7 +6,7 @@
     }
     .teams .titles .name {
         /* color: #f09f01; */
-        font-size: 17px;
+        font-size: 13px;
     }
     #intro h1 {
         font-size: 4em;
@@ -372,9 +372,6 @@
 } */
 
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
-    .navbar-expand-lg .navbar-collapse {
-        background: black;
-    }
     #intro h3 {
         font-size: 9vh;
     }

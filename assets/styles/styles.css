@@ -241,6 +241,7 @@ li {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
+    padding: 7px 0;
 }
 
 .nav-item .sub-menu::before {
@@ -258,7 +259,7 @@ li {
 
 .nav-item .sub-menu li a {
     font-size: 2vh;
-    padding: 9px 0;
+    padding: 4px 0;
     letter-spacing: 0;
 }
 
@@ -269,7 +270,7 @@ li {
     top: 76px;
     width: 20vh;
     border: thin solid #eee;
-    padding-bottom: 5px;
+    /* padding-bottom: 0; */
     transition: linear top 200ms;
     visibility: visible;
     -webkit-transform: translateY(0);
@@ -708,7 +709,7 @@ footer {
 
 #sidebar.active {
     /* display: block !important; */
-    width: 40vh;
+    width: 16vw;
     padding: 10px;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -718,7 +719,7 @@ footer {
 }
 
 .sidebar-menu {
-    padding-left: 7vh;
+    padding-left: 2vw;
     margin-top: 5em;
 }
 
@@ -1041,10 +1042,23 @@ footer {
 #contact-us {
     background: url("../images/contact-us/images/bg_03.jpg");
     height: calc(100vh - 175px);
-    background-size: contain;
+    background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    position: relative;
+    padding: 20px;
 }
+
+
+/* #contact-us::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+} */
 
 .address-block {
     font-size: 2vh;
@@ -1069,6 +1083,11 @@ footer {
 
 .address-block .eml .fa {
     margin-right: 5px;
+}
+
+.address-block a:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 .no-pb {
@@ -1720,7 +1739,7 @@ Attribution required
 /* Responsive */
 
 @media (max-width: 720px) {
-    /* #intro h3 {
+    #intro h3 {
         font-size: 6vh;
     }
     #intro h1 {
@@ -1728,7 +1747,7 @@ Attribution required
     }
     .hm-img img {
         width: 40vh;
-    } */
+    }
     .left-img .bio {
         right: 0;
     }
@@ -1879,9 +1898,18 @@ Attribution required
         width: 22vh;
     }
     .nav-item .sub-menu {
-        display: block;
+        /* display: block; */
+        opacity: 1;
+        visibility: visible;
         padding-left: 15px;
         background: #eee;
+        position: static;
+    }
+    .nav-item .sub-menu::before {
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 8px;
     }
     .sdbr {
         display: block;
