@@ -354,7 +354,16 @@
     }
 }
 
-@media (min-width: 801px) and (max-width: 1024px) {
+@media (min-width: 801px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .hm-img img {
+        width: 53vh;
+    }
+    .left-img .bio {
+        right: 8vh;
+    }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .hm-img img {
         width: 53vh;
     }
