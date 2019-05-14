@@ -531,7 +531,7 @@ h3 {
 }
 
 #intro h1 {
-    font-size: 19vh;
+    font-size: 17vh;
 }
 
 .scroll-icon {
@@ -646,7 +646,7 @@ h3 {
 } */
 
 .hm-img img {
-    width: 60vh;
+    width: 53vh;
 }
 
 
@@ -734,7 +734,8 @@ footer {
 }
 
 .sidebar-menu li a:hover {
-    color: #f09f01;
+    color: #000;
+    text-decoration: underline;
 }
 
 .overlay {
