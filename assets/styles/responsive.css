@@ -354,8 +354,7 @@
     }
 }
 
-
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1024px) {
     #intro h3 {
         font-size: 7vh;
     }
@@ -379,7 +378,7 @@
     .right-img .bio {
         right: 0;
     }
-} */
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     #intro h3 {
