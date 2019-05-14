@@ -371,15 +371,12 @@
     }
 } */
 
-@media screen and (min-width: 1025px) and (max-width: 1500px) {
-    .navbar-expand-lg .navbar-collapse {
-        background: red;
-    }
+@media screen and (min-width: 1025px) and (max-width: 1500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     #intro h3 {
-        font-size: 7vh;
+        font-size: 9vh;
     }
     #intro h1 {
-        font-size: 11vh;
+        font-size: 15vh;
     }
     #slide-img .text-slide1 .headtxt {}
     .hm-img img {
