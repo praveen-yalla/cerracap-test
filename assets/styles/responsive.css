@@ -357,7 +357,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-device-width: 992px) and (max-device-width: 1024px) {
     #intro h3 {
         font-size: 12vh;
     }
