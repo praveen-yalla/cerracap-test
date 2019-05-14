@@ -146,22 +146,22 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .footer-list .foot-menu li {
-        margin-right: 6rem !important;
+        margin-right: 6rem;
     }
     #intro h3 {
-        font-size: 8vh !important;
+        font-size: 8vh;
     }
     #intro h1 {
-        font-size: 13vh !important;
+        font-size: 13vh;
     }
     .hm-img img {
-        width: 55vh !important;
+        width: 55vh;
     }
     #slide-img .text-slide1 .headtxt {
-        font-size: 6vh !important;
+        font-size: 6vh;
         position: absolute;
         right: 0;
-        top: 4vh !important;
+        top: 4vh;
         width: 85vh !important;
         text-align: left;
     }
@@ -169,7 +169,7 @@
         /* bottom: 55vh; */
     }
     .left-img .bio {
-        right: 13vh !important;
+        right: 13vh;
     }
 }
 
@@ -347,7 +347,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .container-fluid {
         padding-left: 15px !important;
         padding-right: 15px !important;
