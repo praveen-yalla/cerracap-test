@@ -380,6 +380,9 @@
     #sidebar.active {
         width: 19vw;
     }
+    .ml-10 {
+        margin-left: 9em;
+    }
     #intro h1 {
         font-size: 15vh;
     }

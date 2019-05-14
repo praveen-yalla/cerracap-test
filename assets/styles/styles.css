@@ -1067,6 +1067,7 @@ footer {
 
 .address-block {
     font-size: 2vh;
+    width: 18vw;
     font-weight: bold;
 }
 
@@ -1803,6 +1804,9 @@ Attribution required
     }
     .teams .titles .name {
         font-size: 12px;
+    }
+    .address-block {
+        width: auto;
     }
     footer {
         display: none !important;
