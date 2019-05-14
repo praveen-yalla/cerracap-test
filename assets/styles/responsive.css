@@ -353,3 +353,29 @@
         margin-left: 15px;
     }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    #intro h3 {
+        font-size: 7vh;
+    }
+    #intro h1 {
+        font-size: 11vh;
+    }
+    #slide-img .text-slide1 .headtxt {}
+    .hm-img img {
+        width: 50vh;
+    }
+    #slide-img .text-slide1 .headtxt {
+        font-size: 6vh;
+        position: absolute;
+        right: 0;
+        top: 4vh;
+        width: 108vh;
+    }
+    .left-img .bio {
+        right: 3vw;
+    }
+    .right-img .bio {
+        right: 0;
+    }
+}
