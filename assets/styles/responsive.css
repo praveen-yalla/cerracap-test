@@ -354,21 +354,6 @@
     }
 }
 
-@media (min-width: 801px) {
-    .hm-img img {
-        width: 53vh;
-    }
-    .left-img .bio {
-        right: 8vh;
-    }
-    #intro h3 {
-        font-size: 7vh;
-    }
-    #intro h1 {
-        font-size: 11vh;
-    }
-}
-
 
 /* 
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
@@ -387,6 +372,9 @@
 } */
 
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .navbar-expand-lg .navbar-collapse {
+        background: red;
+    }
     #intro h3 {
         font-size: 7vh;
     }
