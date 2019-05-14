@@ -375,8 +375,15 @@
     #intro h3 {
         font-size: 9vh;
     }
+    #sidebar.active {
+        width: 19vw;
+    }
     #intro h1 {
         font-size: 15vh;
+    }
+    .sidebar-menu li a:hover {
+        color: #000;
+        text-decoration: underline;
     }
     #slide-img .text-slide1 .headtxt {}
     .hm-img img {
