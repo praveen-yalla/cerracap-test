@@ -148,25 +148,28 @@
     .footer-list .foot-menu li {
         margin-right: 6rem !important;
     }
+    #intro h3 {
+        font-size: 8vh !important;
+    }
     #intro h1 {
-        font-size: 14vh;
+        font-size: 13vh !important;
     }
     .hm-img img {
-        width: 55vh;
+        width: 55vh !important;
     }
     #slide-img .text-slide1 .headtxt {
-        font-size: 6vh;
+        font-size: 6vh !important;
         position: absolute;
         right: 0;
-        top: 4vh;
-        width: 85vh;
+        top: 4vh !important;
+        width: 85vh !important;
         text-align: left;
     }
     #slide-img .bio {
-        bottom: 55vh;
+        /* bottom: 55vh; */
     }
     .left-img .bio {
-        right: 13vh;
+        right: 13vh !important;
     }
 }
 
