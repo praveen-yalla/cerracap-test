@@ -1126,6 +1126,7 @@ footer {
 
 .job-item p {
     font-size: 2vh;
+    line-height: 32px;
 }
 
 .job-descp {
@@ -1143,6 +1144,7 @@ footer {
     font-family: "roboto-regular";
     font-size: 2vh;
     letter-spacing: 0px;
+    line-height: 25px;
 }
 
 .read_more {
