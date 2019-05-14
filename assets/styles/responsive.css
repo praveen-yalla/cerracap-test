@@ -1,6 +1,6 @@
 /* Iphone X */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-width: 375px) and (max-width: 812px) {
     #intro h3 {
         font-size: 6vh;
     }
@@ -79,7 +79,7 @@
 
 /* Iphone 6,7,8 plus */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+@media only screen and (min-width: 414px) and (max-width: 736px) {
     #newsCarousel {
         display: none;
     }
@@ -100,7 +100,7 @@
 
 /* Iphone 6,7,8  */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     #newsCarousel {
         display: none;
     }
@@ -144,15 +144,12 @@
 
 /* Ipad */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .footer-list .foot-menu li {
-        margin-right: 6rem;
-    }
-    #intro h3 {
-        font-size: 8vh;
+        margin-right: 6rem !important;
     }
     #intro h1 {
-        font-size: 13vh;
+        font-size: 14vh;
     }
     .hm-img img {
         width: 55vh;
@@ -162,11 +159,11 @@
         position: absolute;
         right: 0;
         top: 4vh;
-        width: 85vh !important;
+        width: 85vh;
         text-align: left;
     }
     #slide-img .bio {
-        /* bottom: 55vh; */
+        bottom: 55vh;
     }
     .left-img .bio {
         right: 13vh;
@@ -176,7 +173,7 @@
 
 /* portrait */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .sdbr {
         display: block;
     }
@@ -221,7 +218,7 @@
         right: 2vh;
     }
     .bio .name {
-        font-size: 3.5vh;
+        font-size: 4vh;
     }
     .bio p {
         font-size: 2vh;
@@ -347,7 +344,7 @@
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container-fluid {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -357,23 +354,25 @@
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1281px) {
+
+/* 
+@media screen and (min-width: 992px) {
     #intro h3 {
-        font-size: 12vh;
+        font-size: 7vh;
     }
     #intro h1 {
-        font-size: 20vh;
+        font-size: 11vh;
     }
     #slide-img .text-slide1 .headtxt {}
     .hm-img img {
-        width: 53vh;
+        width: 50vh;
     }
     #slide-img .text-slide1 .headtxt {
         font-size: 9vh;
         position: absolute;
         right: 0;
-        top: 7vh;
-        width: 118vh;
+        top: 4vh;
+        width: 108vh;
     }
     .left-img .bio {
         right: 3vw;
@@ -381,7 +380,7 @@
     .right-img .bio {
         right: 0;
     }
-}
+} */
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     #intro h3 {
